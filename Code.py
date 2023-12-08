@@ -1,5 +1,4 @@
 import csv
-
 def read_genes_from_csv(file_path):
     genes = set()
     with open(file_path, 'r') as csvfile:
